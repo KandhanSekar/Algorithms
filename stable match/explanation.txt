@@ -1,0 +1,12 @@
+To achieve the stable matching
+1. Create an array for each man and women and his preferance list( in this ex 3)
+
+Algo:
+1. if (some men is free)
+	pick a free man
+		propose to the women next on his list who has not been proposed
+			if(she s free)- get engaged
+			if(she s engaged) - is our guy better-	
+								yes- swap em
+								no- reject and continue loop
+			
